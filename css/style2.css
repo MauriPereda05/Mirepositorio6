@@ -1,0 +1,50 @@
+.cabeza{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: oblique;
+    text-shadow: 20px 5px 4px cornflowerblue;
+    color:blue;
+}
+
+.Cat{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.Cat2{
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#chris{
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url("../img/saturno.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    border-radius: 20px;
+    animation: colorshadow 0.4s infinite alternate
+}
+
+@keyframes colorshadow{
+    from{box-shadow: 0px 0px 10px red ;}
+    to{box-shadow: 0px 0px 10px yellow ;}
+}
+img:hover{
+    transform: translate(0, -25px);
+}
